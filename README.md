@@ -20,16 +20,12 @@ Files introduction:
 
 3. rowdist.cpp
    This is Rcpp file. Please run it with following commands.
->> library(Rcpp)
 
->> Rcpp::sourceCpp('rowdist.cpp')
-
->> a = matrix(1:12, nrow = 3);
-
->> rowdist(a)
-
-> rowdist(a)
-
+ library(Rcpp)
+ Rcpp::sourceCpp('rowdist.cpp')
+ a = matrix(1:12, nrow = 3);
+ rowdist(a)
+ rowdist(a)
      [,1] [,2] [,3]
 [1,]    0    2    4
 [2,]    2    0    2
