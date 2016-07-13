@@ -1,6 +1,7 @@
 # OpenACC-Project
 
 Files introduction:
+
 1. rowdist.c
    This is a parallel c code accelerated by OpenACC. It can be compiled with Omni OpenACC compiler and run on
    CPU-GPU platform. The function reads the nrow * ncol-dimeonsion matrix from "mat.txt" file and stores it in
