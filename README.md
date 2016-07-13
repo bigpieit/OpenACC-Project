@@ -21,8 +21,8 @@ Files introduction:
 3. rowdist.cpp
    This is Rcpp file. Please run it with following commands.
 
- library(Rcpp)
- Rcpp::sourceCpp('rowdist.cpp')
+ library(Rcpp) \n
+ Rcpp::sourceCpp('rowdist.cpp') \n
  a = matrix(1:12, nrow = 3);
  rowdist(a)
  rowdist(a)
